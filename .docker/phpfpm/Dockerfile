@@ -20,4 +20,4 @@ WORKDIR /code
 
 EXPOSE 8888
 
-
+CMD sh /code/.docker/phpfpm/run.sh

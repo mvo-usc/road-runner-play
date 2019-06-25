@@ -11,4 +11,4 @@ RUN composer --version
 
 WORKDIR /code
 
-CMD sh /code/.docker/installer/run.sh
+RUN sh /code/.docker/phpfpm/run.sh

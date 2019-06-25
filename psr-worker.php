@@ -11,7 +11,7 @@ $psr7 = new Spiral\RoadRunner\PSR7Client(new Spiral\RoadRunner\Worker($relay));
 while ($req = $psr7->acceptRequest()) {
     try {
         $resp = new Response();
-        $resp->getBody()->write("hello world");
+        $resp->getBody()->write("hello world3");
 
         $psr7->respond($resp);
     } catch (\Throwable $e) {

@@ -4,8 +4,10 @@
   "require": {
     "php": ">=7.0",
     "spiral/roadrunner" : "*"
-  },
-  "post-install-cmd": [
-    "./vendor/bin/rr get"
-  ]
+  }
+//  "scripts": {
+//    "post-install-cmd": [
+//      "./vendor/bin/rr get"
+//    ]
+//  }
 }
